@@ -1,13 +1,23 @@
-{
-  "posts": [
-    { "id": "1", "title": "a title", "views": 100 },
-    { "id": "2", "title": "another title", "views": 200 }
-  ],
-  "comments": [
-    { "id": "1", "text": "a comment about post 1", "postId": "1" },
-    { "id": "2", "text": "another comment about post 1", "postId": "1" }
-  ],
-  "profile": {
-    "name": "typicode"
+[
+  {
+    "username": "david",
+    "Full name": "david chen",
+    "Email": "davidchen1977@live.com",
+    "Company": "da tang gaohong cld.",
+    "Job title": "CEO"
+  },
+  {
+    "username": "teddy",
+    "Full name": "teddy wu",
+    "Email": "teddywu1975@live.com",
+    "Company": "da tang gaohong cld.",
+    "Job title": "CFO"
+  },
+  {
+    "username": "jimmy",
+    "Full name": "jimmy chou",
+    "Email": "jimmychou1976@live.com",
+    "Company": "da tang gaohong cld.",
+    "Job title": "CTO"
   }
-}
+]
