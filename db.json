@@ -1,4 +1,5 @@
 {
+    "id":    1,
     "username": "david",
     "Full name": "david chen",
     "Email": "davidchen1977@live.com",
@@ -6,6 +7,7 @@
     "Job title": "CEO"
   },
   {
+    "id":  2,
     "username": "teddy",
     "Full name": "teddy wu",
     "Email": "teddywu1975@live.com",
@@ -13,6 +15,7 @@
     "Job title": "CFO"
   },
   {
+    "id":   3,
     "username": "jimmy",
     "Full name": "jimmy chou",
     "Email": "jimmychou1976@live.com",
