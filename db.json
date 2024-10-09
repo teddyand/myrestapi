@@ -63,54 +63,61 @@
   ],
   "posts": [
    {
-  "slug": "how-to-run-typescript-scripts-in-your-next-js-project",
+  "slug": "first-buck-of-gold-and-rob-&-talk",
   "highlight": "If you've ever tried to add Typescript script to one of your Node.js projects to run it on its own from the command line, it's very likely you came across one of these messages:\n\nError [ERR_REQUIRE_ESM]: Must use import to load ES Module:\nWarning: To load an ES module, set \"type\": \"module\" in the package.json or use the .mjs extension.\n\nA quick search on Google doesn't help much. The solutions range from trying a variety of different tsconfig.json configurations and even adding \"type\": \"module\" to your ",
-  "content": "If you've ever tried to add Typescript script to one of your Node.js projects to run it on its own from the command line, it's very likely you came across one of these messages:\n\n- `Error [ERR_REQUIRE_ESM]: Must use import to load ES Module:`\n- `Warning: To load an ES module, set \"type\": \"module\" in the package.json or use the .mjs extension.`\n\nA quick search on Google doesn't help much. The solutions range from trying a variety of different `tsconfig.json` configurations and even adding `\"type\": \"module\"` to your `package.json` file (which would stop Next.js and any other setup from working entirely).\n\n## Running a Typescript script with TSX\n\nI managed to find [`tsx`](https://www.npmjs.com/package/tsx) after a lot of useless Googling and testing Stackoverflow answers that simply didn't help. All I had to do was replace my script in my `package.json`:\n\n```json\n\"cache\": \"ts-node lib/file.ts\"\n```\n\nWith TSX:\n\n```json\n\"cache\": \"tsx lib/file.ts\"\n```\n\nAnd that was it! No weird errors, no need to configure a separate `tsconfig.json` file. Just plug and play!\n\n\u003CNotice\u003E\n\nI'm 99% sure everything that `tsx` can do can be done in `ts-node`or similar Typescript runners (with the right config and setup). However the big upside of `tsx` is how no-config it is.\n\nIt's really as easy as install and run!\n\n\u003C/Notice\u003E\n\n## Running a Typescript ESM script with TSX\n\nOne footnote: in certain cases your script might need to import a package that has been converted to ES modules. Unless that package also supports CommonJS it's likely you'll be met with an error like this:\n\n```js\n❯ yarn run cache\n\nError [ERR_PACKAGE_PATH_NOT_EXPORTED]: No \\\"exports\\\" main defined in \u003Cpath to your package here\u003E\n```\n\nIn these cases all you have to do is to change your file name from `file.ts` to `file.mts` and then change your command to:\n\n```json\n\"cache\": \"tsx lib/file.mts\"\n```\n\nThis will tell `tsx` to run the entire file as an ES module, solving your error!\n\n",
+  "content": "## 两起抢劫事件引起的思考
+梅先生曾经被父亲认为是个聪明的孩子，不用为读书的问题担心，轻松就能考上清华北大985，211。然而世事无常，梅先生终究没有考上父亲寄予希望的学校。心有不甘且一度颓唐难以自拔的梅先生沉沦了好长一段时间，也曾自责也曾迷茫。这样的日子里梅吉沉沦于史书与传记的阅读之中。一日梅读《二十四史精华——石崇传》“苞临终，分财物与诸子，独不及崇，其母以为言，苞曰：‘此儿虽小，后自能得‘“。后来果然石崇做官的同时，靠抢劫过路客商发家致富获得了人生的第一桶金。再后来石崇官运财运一样发达到了富可敌国的程度，并且常常与人喝酒斗富，传说一次皇帝赐了大臣一株珍贵的珊瑚，石崇看到后竟然派人将之砸碎，并对那人说你到我的仓库再去看，看上那个我送你，那人到了他的仓库果然比那株珊瑚还要大还要珍贵的珊瑚还有许多。
+
+梅先生突然想起以前读到的另一位晋代人物——戴渊的故事，同样也是靠打家劫舍起家获得了人生的第一桶金，并且打劫的同时获得了贵人陆机的赏识与提拔，为他在刚刚南渡的东晋朝廷获得了一席之地。
+
+这两人的故事能给我们一些什么样的思考呢？那就是人生如能遇到贵人固然很好——能够得到能力的认可，但如果没有什么才是我们，穷途末路时唯一的依靠与希望？常言在家靠父母，在外靠朋友。财富是个人能力的彰显，但不是安身立命的根本，也不是学有所成的终极目标。像以上两位在势促时都选择了“打劫”来解决燃眉之急，但是真正能让我们走出困境的应该是对自身能力与品性的把握与认可，石苞因为了解儿子，所以临终时没有给他一分财产，果然儿子也如他所知，最后混的风生水起，富可敌国；戴渊也因为陆机的信任与举荐一路成为了新晋皇帝最信任的臣子，官至尚书。不同的是石崇不知收敛，一味与人好勇斗富沦为了权利斗争中被养大的一只“肥猪”，戴渊则收敛起少年心性，把精力用在了治安辅政，勤王平乱。虽然下场都是一死，但后人的评价却是天壤之别。
+一提到魏晋风度，人们总会联想起“清谈误国”及与之相关的一系列人物，建安七子、竹林七贤、金谷二十四友、司马、王、谢、裴、荀门阀家族。似乎总是一群具有反叛精神、特立独行之人。正如石崇、王敦为代表的一类人，虽然官运亨通但始终没有放下少年心性，表面上好勇斗富、附庸风雅。实际却依然做着打家劫舍的勾当（不同的是抢劫的是官场的地位和自身的名气）。最终石崇因为不肯让出心爱的女婢——绿珠，而遭到了当权者的报复，下狱处死，自己也成为了人道的牺牲品。而戴渊因为得到伯乐——陆机的赏识（因为他抢劫时的临危不乱，指挥若定而被认为具有领导才能）。最终成为了天道的捍卫者。可以说清谈是那个时候人们互相评价的标准，无论是最终导致西晋灭亡的王衍，还是后来名垂青史的宰相王导都对清谈钟爱有嘉。不同的是前者误国，后者治国。本身清谈并没有错，错在当权者是否以国家人民利益为重。换句话说当生产关系适合生产力发展时促进社会发展，反之则阻碍社会的发展。矛盾促进事物（社会）发展的动力，无论一个国家还是一个家庭亦或是个人都是如此。正是因为有着这样的一群人，晋朝才会成为从三国到隋朝400年大分裂历史中存在时间最长的一个朝代（200年）也为我们提供丰富的思想、文学、音乐、文化、艺术宝库。",
   "data": {
-    "title": "How to run Typescript scripts in your Next.js project",
+    "title": "抢劫与清谈",
     "categories": [
       {
-        "slug": "quick-tips",
+        "slug": "人文-俗谈",
         "highlight": "",
         "content": "",
         "data": {
-          "name": "Quick Tips",
+          "name": "人文，俗谈",
           "visible": true,
-          "description": "Handy bite-sized articles on all things web-design and development.\n\nThey won’t take long to read, but these tips can take you a long way! More coming soon…"
+          "description": "梅眼看世界之我看魏晋风度，人生第一桶金子的获得与个人爱好是如何影响人生的问题"
         },
         "isEmpty": false,
-        "excerpt": "",        
+        "excerpt": ""       
       },
       {
-        "slug": "react",
+        "slug": "文化",
         "highlight": "",
         "content": "",
         "data": {
-          "name": "React",
+          "name": "人文",
           "visible": true,
-          "description": "How to's and tutorials on our favorite Javascript library."
+          "description": "梅眼看世界之我看魏晋风度，人生第一桶金子的获得与个人爱好是如何影响人生的问题"
         },
         "isEmpty": false,
-        "excerpt": "",       
+        "excerpt": ""       
       }
     ],
     "published": true,
     "author": {
-      "slug": "leonardo-petrucci",
+      "slug": "david-chen",
       "highlight": "@creativiii\n",
       "content": "\n[@creativiii](https://twitter.com/creativiii)\n",
       "data": {
-        "name": "Leonardo Petrucci",
-        "avatar": "/images/leonardo-petrucci.jpg"
+        "name": "david chen",
+        "avatar": "https://images-1303887003.cos.ap-beijing.myqcloud.com/images/prof_pic.jpg"
       },
       "isEmpty": false,
-      "excerpt": "",      
+      "excerpt": ""     
     },
     "date": "2023-03-04T19:34",
     "thumbnail": "images/ts-note-to-tsx.png"
   },
   "isEmpty": false,
-  "excerpt": "",  
+  "excerpt": ""
+ 
 }
   ]
 }
