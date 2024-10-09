@@ -79,16 +79,7 @@
           "description": "Handy bite-sized articles on all things web-design and development.\n\nThey won’t take long to read, but these tips can take you a long way! More coming soon…"
         },
         "isEmpty": false,
-        "excerpt": "",
-        "mdx": {
-          "compiledSource": "/*@jsxRuntime automatic @jsxImportSource react*/\nconst {Fragment: _Fragment, jsx: _jsx} = arguments[0];\nconst {useMDXComponents: _provideComponents} = arguments[0];\nfunction _createMdxContent(props) {\n  return _jsx(_Fragment, {});\n}\nfunction MDXContent(props = {}) {\n  const {wrapper: MDXLayout} = Object.assign({}, _provideComponents(), props.components);\n  return MDXLayout ? _jsx(MDXLayout, Object.assign({}, props, {\n    children: _jsx(_createMdxContent, props)\n  })) : _createMdxContent(props);\n}\nreturn {\n  default: MDXContent\n};\n",
-          "frontmatter": {
-
-          },
-          "scope": {
-
-          }
-        }
+        "excerpt": "",        
       },
       {
         "slug": "react",
