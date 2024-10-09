@@ -112,6 +112,57 @@
   "isEmpty": false,
   "excerpt": ""
  
-}
+},
+{
+  "slug": "the-death-of-expert",
+  "highlight": "If you've ever tried to add Typescript script to one of your Node.js projects to run it on its own from the command line, it's very likely you came across one of these messages:\n\nError [ERR_REQUIRE_ESM]: Must use import to load ES Module:\nWarning: To load an ES module, set \"type\": \"module\" in the package.json or use the .mjs extension.\n\nA quick search on Google doesn't help much. The solutions range from trying a variety of different tsconfig.json configurations and even adding \"type\": \"module\" to your ",
+  "content": "",
+  "data": {
+    "title": "专家之死",
+    "categories": [
+      {
+        "slug": "人文-俗谈",
+        "highlight": "",
+        "content": "",
+        "data": {
+          "name": "人文，俗谈",
+          "visible": true,
+          "description": "梅眼看世界之我看魏晋风度，养生专家之死与创业新契机"
+        },
+        "isEmpty": false,
+        "excerpt": ""       
+      },
+      {
+        "slug": "文化",
+        "highlight": "",
+        "content": "",
+        "data": {
+          "name": "人文",
+          "visible": true,
+          "description": "梅眼看世界之我看魏晋风度，养生专家之死与创业新契机"
+        },
+        "isEmpty": false,
+        "excerpt": ""       
+      }
+    ],
+    "published": true,
+    "author": {
+      "slug": "david-chen",
+      "highlight": "@creativiii\n",
+      "content": "\n[@creativiii](https://twitter.com/creativiii)\n",
+      "data": {
+        "name": "david chen",
+        "avatar": "https://images-1303887003.cos.ap-beijing.myqcloud.com/images/prof_pic.jpg"
+      },
+      "isEmpty": false,
+      "excerpt": ""     
+    },
+    "date": "2024-09-30T19:34",
+    "thumbnail": "images/ts-note-to-tsx.png"
+  },
+  "isEmpty": false,
+  "excerpt": ""
+ 
+}    
   ]
 }
