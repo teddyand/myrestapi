@@ -62,6 +62,64 @@
     }
   ],
   "posts": [
-   
+   {
+  "slug": "how-to-run-typescript-scripts-in-your-next-js-project",
+  "highlight": "If you've ever tried to add Typescript script to one of your Node.js projects to run it on its own from the command line, it's very likely you came across one of these messages:\n\nError [ERR_REQUIRE_ESM]: Must use import to load ES Module:\nWarning: To load an ES module, set \"type\": \"module\" in the package.json or use the .mjs extension.\n\nA quick search on Google doesn't help much. The solutions range from trying a variety of different tsconfig.json configurations and even adding \"type\": \"module\" to your ",
+  "content": "If you've ever tried to add Typescript script to one of your Node.js projects to run it on its own from the command line, it's very likely you came across one of these messages:\n\n- `Error [ERR_REQUIRE_ESM]: Must use import to load ES Module:`\n- `Warning: To load an ES module, set \"type\": \"module\" in the package.json or use the .mjs extension.`\n\nA quick search on Google doesn't help much. The solutions range from trying a variety of different `tsconfig.json` configurations and even adding `\"type\": \"module\"` to your `package.json` file (which would stop Next.js and any other setup from working entirely).\n\n## Running a Typescript script with TSX\n\nI managed to find [`tsx`](https://www.npmjs.com/package/tsx) after a lot of useless Googling and testing Stackoverflow answers that simply didn't help. All I had to do was replace my script in my `package.json`:\n\n```json\n\"cache\": \"ts-node lib/file.ts\"\n```\n\nWith TSX:\n\n```json\n\"cache\": \"tsx lib/file.ts\"\n```\n\nAnd that was it! No weird errors, no need to configure a separate `tsconfig.json` file. Just plug and play!\n\n\u003CNotice\u003E\n\nI'm 99% sure everything that `tsx` can do can be done in `ts-node`or similar Typescript runners (with the right config and setup). However the big upside of `tsx` is how no-config it is.\n\nIt's really as easy as install and run!\n\n\u003C/Notice\u003E\n\n## Running a Typescript ESM script with TSX\n\nOne footnote: in certain cases your script might need to import a package that has been converted to ES modules. Unless that package also supports CommonJS it's likely you'll be met with an error like this:\n\n```js\n❯ yarn run cache\n\nError [ERR_PACKAGE_PATH_NOT_EXPORTED]: No \\\"exports\\\" main defined in \u003Cpath to your package here\u003E\n```\n\nIn these cases all you have to do is to change your file name from `file.ts` to `file.mts` and then change your command to:\n\n```json\n\"cache\": \"tsx lib/file.mts\"\n```\n\nThis will tell `tsx` to run the entire file as an ES module, solving your error!\n\n",
+  "data": {
+    "title": "How to run Typescript scripts in your Next.js project",
+    "categories": [
+      {
+        "slug": "quick-tips",
+        "highlight": "",
+        "content": "",
+        "data": {
+          "name": "Quick Tips",
+          "visible": true,
+          "description": "Handy bite-sized articles on all things web-design and development.\n\nThey won’t take long to read, but these tips can take you a long way! More coming soon…"
+        },
+        "isEmpty": false,
+        "excerpt": "",
+        "mdx": {
+          "compiledSource": "/*@jsxRuntime automatic @jsxImportSource react*/\nconst {Fragment: _Fragment, jsx: _jsx} = arguments[0];\nconst {useMDXComponents: _provideComponents} = arguments[0];\nfunction _createMdxContent(props) {\n  return _jsx(_Fragment, {});\n}\nfunction MDXContent(props = {}) {\n  const {wrapper: MDXLayout} = Object.assign({}, _provideComponents(), props.components);\n  return MDXLayout ? _jsx(MDXLayout, Object.assign({}, props, {\n    children: _jsx(_createMdxContent, props)\n  })) : _createMdxContent(props);\n}\nreturn {\n  default: MDXContent\n};\n",
+          "frontmatter": {
+
+          },
+          "scope": {
+
+          }
+        }
+      },
+      {
+        "slug": "react",
+        "highlight": "",
+        "content": "",
+        "data": {
+          "name": "React",
+          "visible": true,
+          "description": "How to's and tutorials on our favorite Javascript library."
+        },
+        "isEmpty": false,
+        "excerpt": "",       
+      }
+    ],
+    "published": true,
+    "author": {
+      "slug": "leonardo-petrucci",
+      "highlight": "@creativiii\n",
+      "content": "\n[@creativiii](https://twitter.com/creativiii)\n",
+      "data": {
+        "name": "Leonardo Petrucci",
+        "avatar": "/images/leonardo-petrucci.jpg"
+      },
+      "isEmpty": false,
+      "excerpt": "",      
+    },
+    "date": "2023-03-04T19:34",
+    "thumbnail": "images/ts-note-to-tsx.png"
+  },
+  "isEmpty": false,
+  "excerpt": "",  
+}
   ]
 }
