@@ -61,7 +61,7 @@
       "profile_pic": "https://images-1303887003.cos.ap-beijing.myqcloud.com/images/maria.jpg"
     }
   ],
-  "posts": [    
+  "posts":[    
 {
   "slug": "first-buck-of-gold",
   "highlight": "If you've ever tried to add Typescript script to one of your Node.js projects to run it on its own from the command line, it's very likely you came across one of these messages:\n\nError [ERR_REQUIRE_ESM]: Must use import to load ES Module:\nWarning: To load an ES module, set \"type\": \"module\" in the package.json or use the .mjs extension.\n\nA quick search on Google doesn't help much. The solutions range from trying a variety of different tsconfig.json configurations and even adding \"type\": \"module\" to your ",
