@@ -65,7 +65,7 @@
 {
   "slug": "first-buck-of-gold",
   "highlight": "If you've ever tried to add Typescript script to one of your Node.js projects to run it on its own from the command line, it's very likely you came across one of these messages:\n\nError [ERR_REQUIRE_ESM]: Must use import to load ES Module:\nWarning: To load an ES module, set \"type\": \"module\" in the package.json or use the .mjs extension.\n\nA quick search on Google doesn't help much. The solutions range from trying a variety of different tsconfig.json configurations and even adding \"type\": \"module\" to your ",
-  "content": "## 抢劫与清谈\n\n梅先生曾经被父亲认为是个聪明的孩子，不用为读书考学的问题担心，轻松就能考上清华北大985，211。然而世事无常，梅先生终究没有考上父亲寄予希望的学校。心有不甘且一度颓唐难以自拔的梅先生沉沦了好长一段时间，也曾自责也曾迷茫。这样的日子里梅吉沉沦于史书与传记的阅读之中。一日梅读《二十四史精华——石崇传》“苞临终，分财物与诸子，独不及崇，其母以为言，苞曰：‘此儿虽小，后自能得‘“。后来果然石崇做官的同时，靠抢劫过路客商发家致富获得了人生的第一桶金。再后来石崇官运财运一样发达到了富可敌国的程度，并且常常与人喝酒斗富，传说一次皇帝赐了大臣一株珍贵的珊瑚，石崇看到后竟然派人将之砸碎，并对那人说你到我的仓库再去看，看上哪个我送你，那人到了他的仓库果然看到比那株珊瑚还要大还要珍贵的珊瑚还有许多。\n\n梅先生突然想起以前读到的另一位晋代人物——戴渊的故事，同样也是靠打家劫舍起家获得了人生的第一桶金，并且打劫的同时获得了贵人陆机的赏识与提拔，为他在刚刚南渡的东晋朝廷获得了一席之地开启人生命运的齿轮。\n\n这两人的故事能给我们一些什么样的思考呢？人生如能遇到贵人固然很好——能够得到能力的认可，但如果没有什么才是我们，穷途末路时唯一的依靠与希望？常言在家靠父母，在外靠朋友。财富是个人能力的彰显，但不是安身立命的根本，也不是学有所成的终极目标。像以上两位在势促时都选择了“打劫”来解决燃眉之急，但是真正能让我们走出困境的应该是对自身能力与品性的把握与认可，石苞因为了解儿子，所以临终时没有给他一分财产，果然儿子也如他所知，最后混的风生水起，富可敌国；戴渊也因为陆机的信任与举荐一路成为了新晋皇帝最信任的臣子，官至尚书，终成辅国良弼。不同的是石崇不知收敛，一味与人好勇斗富沦为了权利斗争中被养大的一只“肥猪”，戴渊则收敛起少年心性，把精力用在了治安辅政，勤王平乱。虽然下场终是一死，但后人的评价却是天壤之别。",
+  "content": "## 抢劫与清谈\n\n梅先生曾经被父亲认为是个聪明的孩子，不用为读书考学的问题担心，轻松就能考上清华北大985，211。然而世事无常，梅先生终究没有考上父亲寄予希望的学校。",
   "data": {
     "title": "第一桶金",
     "categories": [
