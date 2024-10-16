@@ -3,7 +3,7 @@
     {
       "id": "59761c23b30d971669fb42ff",
       "isActive": true,
-      "dates of birth and death": "公元223～263",
+      "dates_of_bd": "公元223～263",
       "name": "嵇康",
       "gender": "male",
       "company": "CEDWARD",
@@ -16,7 +16,7 @@
     {
       "id": "59761c233d8d0f92a6b0570d",
       "isActive": true,
-      "dates_of_b&d": "公元210～263",      
+      "dates_of_bd": "公元210～263",      
       "name": "阮籍",
       "gender": "male",
       "company": "EMERGENT",
@@ -29,7 +29,7 @@
     {
       "id": "59761c23fcb6254b1a06dad5",
       "isActive": true,
-      "dates_of_b&d": "公元205～283",
+      "dates_of_bd": "公元205～283",
       "name": "山涛",
       "gender": "male",
       "company": "ORGANICA",
@@ -42,7 +42,7 @@
     {
       "id": "59761c23fcb6254b1a069738",
       "isActive": true,
-      "dates_of_b&d": "公元227～272",
+      "dates_of_bd": "公元227～272",
       "name": "向秀",
       "gender": "male",
       "company": "BMII",
@@ -55,7 +55,7 @@
     {
       "id": "59761c23fcb6254b1a061124",
       "isActive": true,
-      "dates_of_b&d": "公元?",
+      "dates_of_bd": "公元?",
       "name": "刘伶",
       "gender": "female",
       "company": "DATANG CO LTD.",
