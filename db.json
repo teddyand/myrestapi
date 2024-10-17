@@ -1,6 +1,23 @@
 {
   "clients": [
     {
+      "id": "59761c23b30d971669DSF432",
+      "isActive": true,
+      "dates_of_bd": "公元1977～今",
+      "name": "大卫.陈",
+      "gender": "male",
+      "company": "CEDWARD",
+      "email": "davidchen1977@live.com",
+      "phone": "+1 (890) 543-2508",
+      "address": "169 Rutledge Street, Konterra, Northern Mariana Islands, 8551",
+      "profile_pic": "https://images-1303887003.cos.ap-beijing.myqcloud.com/images/%E5%A4%A7%E5%8D%AB%E9%99%88.jpeg",
+      "about": "Hello I am david chen .I was born in Beijing in 1977 April the 29th. Graduated from Beijing Information Science and Technology University (origin: Bejing Machinery industry Institue ) at 1999 July, Major in Industrial Electrical automation. After that, at Bejing Medical Instrument instiute(BMII) I started my career as a program technician.",
+      "articles": [ 
+        {"name":"爬虫气象预报","article":"https://davidit.top/2022/09/16/nodejs-scraper/"},
+        {"name":"cordova框架试用","article":"https://davidit.top/2021/11/13/cordova-framework/"},
+        {"name":"试玉行动","article":"https://davidit.top/2022/07/16/jadeI/"}]
+    },
+    {
       "id": "59761c23b30d971669fb42ff",
       "isActive": true,
       "dates_of_bd": "公元223～263",
@@ -10,7 +27,7 @@
       "email": "dunlaphubbard@cedward.com",
       "phone": "+1 (890) 543-2508",
       "address": "169 Rutledge Street, Konterra, Northern Mariana Islands, 8551",
-      "profile_pic": "https://images-1303887003.cos.ap-beijing.myqcloud.com/images/prof_pic.jpg",
+      "profile_pic": "https://images-1303887003.cos.ap-beijing.myqcloud.com/images/%E5%B5%87%E5%BA%B7%E6%89%93%E9%93%81.jpeg",
       "about": "字叔夜，谯国銍县（今安徽濉溪县）人。他娶了曹操曾孙女长乐亭主为妻,进入上流，并任中散大夫。思想受道家影响，提出越名教而任自然，认为名教违背自然本性。他追求精神自由独立，一生爱好操琴、打铁。著作有《与山巨源绝交书》《养生论》《释私论》《难自然好学书》《声无哀乐论》",
       "articles": [ 
         {"name":"脑功能食物","article":"https://davidit.top/2024/04/28/food-of-cognition/"},
