@@ -52,17 +52,22 @@
       "id": "59761c23fcb6254b1a069738",
       "isActive": true,
       "dates_of_bd": "公元227～272",
-      "name": "向秀",
+      "name": "大卫陈",
       "gender": "male",
       "company": "BMII",
       "email": "davidchen1977@live.com",
       "phone": "+01 (882) 18201486521",
       "address": "Beij Haidian district, Xueyuan Road, No. 37 415-B 110-R",
-      "profile_pic": "https://images-1303887003.cos.ap-beijing.myqcloud.com/images/profile.jpg",
-      "about": "竹林七贤之向秀。"
+      "profile_pic": "https://images-1303887003.cos.ap-beijing.myqcloud.com/images/davidchen.jpeg",
+      "about": "I am a freelancer and amateur  OSS(open source software) application user; And commit myself to provide scheme which depends on lowcost Open source  software/hardware realize; ",
+      "articles": [ 
+        {"name":"蓝点项目一","article":"https://davidit.top/2024/04/26/bluepoint-one/"},
+        {"name":"气象预报","article":"https://davidit.top/2022/09/16/nodejs-scraper/"},
+        {"name":"cordovar框架","article":"https://davidit.top/2021/11/13/cordova-framework/"}
+        ]
     }    
   ],  
   "posts": [
-    
+
   ]
 }
