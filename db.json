@@ -85,7 +85,7 @@
       "phone": "+1 (890) 543-2508",
       "address": "169 Rutledge Street, Konterra, Northern Mariana Islands, 8551",
       "profile_pic": "https://images-1303887003.cos.ap-beijing.myqcloud.com/images/davidchen.jpeg",
-      "about": "I am a freelancer and amateur  OSS(open source software) application user; And commit myself to provide scheme which depends on lowcost Open source  software/hardware realize; Meanwhile I am also a Maker、 a hobbyist of calligraphy、traditional novel、foreign literature(especialy in english literature);and even a history fanatic",
+      "about": "I am a freelancer and amateur  OSS(open source software) application user; And commit myself to provide scheme which depends on lowcost Open source  software/hardware realize.",
       "articles": [ 
         {"name":"蓝点项目一","article":"https://davidit.top/2024/04/26/bluepoint-one/"},
         {"name":"爬虫预报","article":"https://davidit.top/2022/09/16/nodejs-scraper/"},
