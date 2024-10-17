@@ -11,7 +11,7 @@
       "phone": "+1 (890) 543-2508",
       "address": "169 Rutledge Street, Konterra, Northern Mariana Islands, 8551",
       "profile_pic": "https://images-1303887003.cos.ap-beijing.myqcloud.com/images/davidchen.jpeg",
-      "about": "Hello I am david chen .I was born in Beijing in 1977 April the 29th. Graduated from Beijing Information Science and Technology University (origin: Bejing Machinery industry Institue ) at 1999 July, Major in Industrial Electrical automation. After that, at Bejing Medical Instrument instiute(BMII) I started my career as a program technician.",
+      "about": "Hello I am david chen .I was born in Beijing in 1977 April the 29th. Graduated from Beijing Information Science and Technology University (origin: Bejing Machinery industry Institue ) at 1999 July, Major in Industrial Electrical automation. ",
       "articles": [ 
         {"name":"爬虫气象预报","article":"https://davidit.top/2022/09/16/nodejs-scraper/"},
         {"name":"cordova框架试用","article":"https://davidit.top/2021/11/13/cordova-framework/"},
