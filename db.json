@@ -65,6 +65,23 @@
         {"name":"气象预报","article":"https://davidit.top/2022/09/16/nodejs-scraper/"},
         {"name":"cordovar框架","article":"https://davidit.top/2021/11/13/cordova-framework/"}
         ]
+    },
+    {
+      "id": "59761c23fcb6254b1a3333fa",
+      "isActive": true,
+      "dates_of_bd": "公元1749～1832",
+      "name": "歌德",
+      "gender": "male",
+      "company": "Gemany literature",
+      "email": "davidchen1977@live.com",
+      "phone": "+01 (882) 18201486521",
+      "address": "Beij Haidian district, Xueyuan Road, No. 37 415-B 110-R",
+      "profile_pic": "https://images-1303887003.cos.ap-beijing.myqcloud.com/images/davidchen.jpeg",
+      "about": "Johann Wolfgang von Goethe, a giant of German literature. Born in 1749, he is renowned for masterpieces like "Faust." His works span various genres, exploring profound themes of love, morality, and human nature. Goethe was not only a prolific writer but also had interests in science and art. His writing style is rich in detail and psychological depth. His influence extends globally, inspiring generations. His works remain timeless, captivating readers with their beauty and wisdom.",
+      "articles": [ 
+        {"name":"美丽心灵","article":"https://davidit.top/2023/02/05/beautiful-mind/"},
+        {"name":"天才拓荒","article":"https://davidit.top/2023/03/03/scientific-genius-von/"}        
+        ]
     }    
   ],  
   "posts": [
