@@ -46,7 +46,11 @@
       "phone": "+1 (882) 441-3367",
       "address": "697 Linden Boulevard, Sattley, Idaho, 1035",
       "profile_pic": "https://images-1303887003.cos.ap-beijing.myqcloud.com/images/mbp.jpeg",
-      "about": "字巨源，河内郡怀县（今河南武陟西）人。自小丧父，生活拮据，有较高气节。四十岁入仕，任河内郡主簿，一路高升历任郎中、从事郎中、尚书吏部郎等官。能够急流勇退，归隐又复出。有殊勋，不自居表现谦谦君子之风。"
+      "about": "字巨源，河内郡怀县（今河南武陟西）人。自小丧父，生活拮据，有较高气节。四十岁入仕，任河内郡主簿，一路高升历任郎中、从事郎中、尚书吏部郎等官。能够急流勇退，归隐又复出。有殊勋，不自居表现谦谦君子之风。",
+      "articles": [ 
+        {"name":"美丽心灵","article":"https://davidit.top/2023/02/05/beautiful-mind/"},
+        {"name":"天才拓荒","article":"https://davidit.top/2023/03/03/scientific-genius-von/"}        
+        ]
     },
     {
       "id": "59761c23fcb6254b1a069738",
