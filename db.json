@@ -103,7 +103,24 @@
         {"name":"寻找切比雪夫","article":"https://t.1yb.co/L5ZA"},
         {"name":"将军与抽奖","article":"https://t.1yb.co/L5ZD"}        
         ]
-    }        
+    },
+    {
+      "id": "23456r23234yf54b1a3333fa",
+      "isActive": true,
+      "dates_of_bd": "公元1245～1330",
+      "name": "黄道婆",
+      "gender": "female",
+      "company": "Chinese Song Dynasty weave expert",
+      "email": "davidchen1977@live.com",
+      "phone": "+01 (882) 18201486521",
+      "address": "Beij Haidian district, Xueyuan Road, No. 37 415-B 110-R",
+      "profile_pic": "https://images-1303887003.cos.ap-beijing.myqcloud.com/images/Huang.png",
+      "about": "Huangdaopo was a remarkable figure in the Song Dynasty. She learned advanced cotton textile skills in Hainan and brought them back to her hometown. Her innovations, like improved spinning and weaving tools, revolutionized the local textile industry, making a profound and lasting impact on textile development.",
+      "articles": [ 
+        {"name":"寻找切比雪夫","article":"https://t.1yb.co/L5ZA"},
+        {"name":"将军与抽奖","article":"https://t.1yb.co/L5ZD"}        
+        ]
+    }                
   ],  
   "posts": [
 
