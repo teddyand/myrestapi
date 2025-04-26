@@ -15,3 +15,5 @@ REST这套开发现代化互联网应用程序的解决方案最早由罗伊.托
 
 ### 示例
 本api访问[https://my-json-server.typicode.com/teddyand/myrestapi/clients](https://my-json-server.typicode.com/teddyand/myrestapi/clients)
+
+网站：[大卫三城记](https://www.triplecity.site/)
